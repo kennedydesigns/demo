@@ -1,0 +1,77 @@
+/*overall background*/
+.overall{
+       background: url(../images/bg.png);
+}
+/*makes views transparent*/
+.overall .dhx_view{
+	background-color:transparent;
+}
+/*Toolbar as the top*/
+.toolbar{
+	background-image:url(../images/toolbar.png);
+	background-repeat:repeat-x;
+	-moz-box-shadow: 0px 3px 3px #747981;
+	-webkit-box-shadow:  0px 3px 3px #747981;
+	box-shadow:  0px 3px 3px #747981;
+}
+/*the label in Toolbar*/
+.toolbar .dhx_el_label div{
+	font-family:Gergia;
+	font-size:30px;
+	font-weight:bold;
+	color:#636363;
+	text-shadow: 0 1px 1px #d9d9d8;
+}
+/*Form*/
+.form{
+	background-image:url(../images/form.png);
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: inset 0 -1px 2px 2px #444141;
+	-webkit-box-shadow: inset 0 0 2px 2px #444141;
+	box-shadow: inset 0 -1px 2px 2px #444141;
+}
+.form1{
+	background-image:url(../images/form1.png);
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: inset 0 -1px 2px 2px #444141;
+	-webkit-box-shadow: inset 0 0 2px 2px #444141;
+	box-shadow: inset 0 -1px 2px 2px #444141;
+}
+/*containes for form inputs*/
+.dhx_el_box{
+	background:#ffffff !important;
+	-moz-box-shadow: 0px 1px  #d2d2d, inset 0px 2px 2px #a6a6a6;
+	-webkit-box-shadow: 0px 1px #d2d2d2, inset  0px 2px 2px #747981;
+	box-shadow: 0px 1px #d2d2d2, inset 0px 2px 2px #747981;
+	border-top:0px !important;
+}
+/*inputs*/
+.dhx_inp_text{
+	border-radius: 0px;
+	 -webkit-appearance: none;
+	background:transparent;
+}
+/*Login (type:"form") and Register (type:"round" buttons)*/ 
+.dhx_el_formbutton input, .dhx_el_roundbutton input{
+	-moz-border-radius:5px;
+	-weblit-border-radius:5px;
+	border-radius: 5px;
+	-moz-box-shadow: none;
+	-webkit-box-shadow:  none;
+	box-shadow:  none;
+}
+/*Register button*/ 
+.dhx_el_roundbutton input{
+	background: -webkit-gradient(linear, left top, left bottom, from( #a0b4ce ),to( #5e6e80 ));
+	background: -moz-linear-gradient(top,  #a0b4ce,  #5e6e80 );
+	border-color:#5a697b #5a697b #243242;
+}
+/*Register button, touched state*/ 
+.dhx_touch .dhx_el_roundbutton input{
+	background: #8496ad;
+}
+
